@@ -1,0 +1,1008 @@
+/**
+ * Account.java
+ *
+ * This file was auto-generated from WSDL
+ * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
+ */
+
+package co.ke.transunion.crbws.ws;
+
+public class Account  implements java.io.Serializable {
+    private java.util.Calendar accountClosedDate;
+
+    private String accountNo;
+
+    private java.util.Calendar accountOpeningDate;
+
+    private String accountOwner;
+
+    private String accountStatus;
+
+    private String accountType;
+
+    private Double arrearAmount;
+
+    private Integer arrearDays;
+
+    private Double balanceAmount;
+
+    private String currency;
+
+    private String disputed;
+
+    private String groupName;
+
+    private String groupNumber;
+
+    private Boolean isMyAccount;
+
+    private Integer joinLoanParticipants;
+
+    private java.util.Calendar lastPaymentDate;
+
+    private java.util.Calendar listingDate;
+
+    private java.util.Calendar maturityDate;
+
+    private java.util.Calendar pastDueDate;
+
+    private Double principalAmount;
+
+    private Integer repaymentDuration;
+
+    private String repaymentTerm;
+
+    private Double scheduledPaymentAmount;
+
+    private String tradeSector;
+
+    private Integer worstArrear;
+
+    public Account() {
+    }
+
+    public Account(
+           java.util.Calendar accountClosedDate,
+           String accountNo,
+           java.util.Calendar accountOpeningDate,
+           String accountOwner,
+           String accountStatus,
+           String accountType,
+           Double arrearAmount,
+           Integer arrearDays,
+           Double balanceAmount,
+           String currency,
+           String disputed,
+           String groupName,
+           String groupNumber,
+           Boolean isMyAccount,
+           Integer joinLoanParticipants,
+           java.util.Calendar lastPaymentDate,
+           java.util.Calendar listingDate,
+           java.util.Calendar maturityDate,
+           java.util.Calendar pastDueDate,
+           Double principalAmount,
+           Integer repaymentDuration,
+           String repaymentTerm,
+           Double scheduledPaymentAmount,
+           String tradeSector,
+           Integer worstArrear) {
+           this.accountClosedDate = accountClosedDate;
+           this.accountNo = accountNo;
+           this.accountOpeningDate = accountOpeningDate;
+           this.accountOwner = accountOwner;
+           this.accountStatus = accountStatus;
+           this.accountType = accountType;
+           this.arrearAmount = arrearAmount;
+           this.arrearDays = arrearDays;
+           this.balanceAmount = balanceAmount;
+           this.currency = currency;
+           this.disputed = disputed;
+           this.groupName = groupName;
+           this.groupNumber = groupNumber;
+           this.isMyAccount = isMyAccount;
+           this.joinLoanParticipants = joinLoanParticipants;
+           this.lastPaymentDate = lastPaymentDate;
+           this.listingDate = listingDate;
+           this.maturityDate = maturityDate;
+           this.pastDueDate = pastDueDate;
+           this.principalAmount = principalAmount;
+           this.repaymentDuration = repaymentDuration;
+           this.repaymentTerm = repaymentTerm;
+           this.scheduledPaymentAmount = scheduledPaymentAmount;
+           this.tradeSector = tradeSector;
+           this.worstArrear = worstArrear;
+    }
+
+
+    /**
+     * Gets the accountClosedDate value for this Account.
+     * 
+     * @return accountClosedDate
+     */
+    public java.util.Calendar getAccountClosedDate() {
+        return accountClosedDate;
+    }
+
+
+    /**
+     * Sets the accountClosedDate value for this Account.
+     * 
+     * @param accountClosedDate
+     */
+    public void setAccountClosedDate(java.util.Calendar accountClosedDate) {
+        this.accountClosedDate = accountClosedDate;
+    }
+
+
+    /**
+     * Gets the accountNo value for this Account.
+     * 
+     * @return accountNo
+     */
+    public String getAccountNo() {
+        return accountNo;
+    }
+
+
+    /**
+     * Sets the accountNo value for this Account.
+     * 
+     * @param accountNo
+     */
+    public void setAccountNo(String accountNo) {
+        this.accountNo = accountNo;
+    }
+
+
+    /**
+     * Gets the accountOpeningDate value for this Account.
+     * 
+     * @return accountOpeningDate
+     */
+    public java.util.Calendar getAccountOpeningDate() {
+        return accountOpeningDate;
+    }
+
+
+    /**
+     * Sets the accountOpeningDate value for this Account.
+     * 
+     * @param accountOpeningDate
+     */
+    public void setAccountOpeningDate(java.util.Calendar accountOpeningDate) {
+        this.accountOpeningDate = accountOpeningDate;
+    }
+
+
+    /**
+     * Gets the accountOwner value for this Account.
+     * 
+     * @return accountOwner
+     */
+    public String getAccountOwner() {
+        return accountOwner;
+    }
+
+
+    /**
+     * Sets the accountOwner value for this Account.
+     * 
+     * @param accountOwner
+     */
+    public void setAccountOwner(String accountOwner) {
+        this.accountOwner = accountOwner;
+    }
+
+
+    /**
+     * Gets the accountStatus value for this Account.
+     * 
+     * @return accountStatus
+     */
+    public String getAccountStatus() {
+        return accountStatus;
+    }
+
+
+    /**
+     * Sets the accountStatus value for this Account.
+     * 
+     * @param accountStatus
+     */
+    public void setAccountStatus(String accountStatus) {
+        this.accountStatus = accountStatus;
+    }
+
+
+    /**
+     * Gets the accountType value for this Account.
+     * 
+     * @return accountType
+     */
+    public String getAccountType() {
+        return accountType;
+    }
+
+
+    /**
+     * Sets the accountType value for this Account.
+     * 
+     * @param accountType
+     */
+    public void setAccountType(String accountType) {
+        this.accountType = accountType;
+    }
+
+
+    /**
+     * Gets the arrearAmount value for this Account.
+     * 
+     * @return arrearAmount
+     */
+    public Double getArrearAmount() {
+        return arrearAmount;
+    }
+
+
+    /**
+     * Sets the arrearAmount value for this Account.
+     * 
+     * @param arrearAmount
+     */
+    public void setArrearAmount(Double arrearAmount) {
+        this.arrearAmount = arrearAmount;
+    }
+
+
+    /**
+     * Gets the arrearDays value for this Account.
+     * 
+     * @return arrearDays
+     */
+    public Integer getArrearDays() {
+        return arrearDays;
+    }
+
+
+    /**
+     * Sets the arrearDays value for this Account.
+     * 
+     * @param arrearDays
+     */
+    public void setArrearDays(Integer arrearDays) {
+        this.arrearDays = arrearDays;
+    }
+
+
+    /**
+     * Gets the balanceAmount value for this Account.
+     * 
+     * @return balanceAmount
+     */
+    public Double getBalanceAmount() {
+        return balanceAmount;
+    }
+
+
+    /**
+     * Sets the balanceAmount value for this Account.
+     * 
+     * @param balanceAmount
+     */
+    public void setBalanceAmount(Double balanceAmount) {
+        this.balanceAmount = balanceAmount;
+    }
+
+
+    /**
+     * Gets the currency value for this Account.
+     * 
+     * @return currency
+     */
+    public String getCurrency() {
+        return currency;
+    }
+
+
+    /**
+     * Sets the currency value for this Account.
+     * 
+     * @param currency
+     */
+    public void setCurrency(String currency) {
+        this.currency = currency;
+    }
+
+
+    /**
+     * Gets the disputed value for this Account.
+     * 
+     * @return disputed
+     */
+    public String getDisputed() {
+        return disputed;
+    }
+
+
+    /**
+     * Sets the disputed value for this Account.
+     * 
+     * @param disputed
+     */
+    public void setDisputed(String disputed) {
+        this.disputed = disputed;
+    }
+
+
+    /**
+     * Gets the groupName value for this Account.
+     * 
+     * @return groupName
+     */
+    public String getGroupName() {
+        return groupName;
+    }
+
+
+    /**
+     * Sets the groupName value for this Account.
+     * 
+     * @param groupName
+     */
+    public void setGroupName(String groupName) {
+        this.groupName = groupName;
+    }
+
+
+    /**
+     * Gets the groupNumber value for this Account.
+     * 
+     * @return groupNumber
+     */
+    public String getGroupNumber() {
+        return groupNumber;
+    }
+
+
+    /**
+     * Sets the groupNumber value for this Account.
+     * 
+     * @param groupNumber
+     */
+    public void setGroupNumber(String groupNumber) {
+        this.groupNumber = groupNumber;
+    }
+
+
+    /**
+     * Gets the isMyAccount value for this Account.
+     * 
+     * @return isMyAccount
+     */
+    public Boolean getIsMyAccount() {
+        return isMyAccount;
+    }
+
+
+    /**
+     * Sets the isMyAccount value for this Account.
+     * 
+     * @param isMyAccount
+     */
+    public void setIsMyAccount(Boolean isMyAccount) {
+        this.isMyAccount = isMyAccount;
+    }
+
+
+    /**
+     * Gets the joinLoanParticipants value for this Account.
+     * 
+     * @return joinLoanParticipants
+     */
+    public Integer getJoinLoanParticipants() {
+        return joinLoanParticipants;
+    }
+
+
+    /**
+     * Sets the joinLoanParticipants value for this Account.
+     * 
+     * @param joinLoanParticipants
+     */
+    public void setJoinLoanParticipants(Integer joinLoanParticipants) {
+        this.joinLoanParticipants = joinLoanParticipants;
+    }
+
+
+    /**
+     * Gets the lastPaymentDate value for this Account.
+     * 
+     * @return lastPaymentDate
+     */
+    public java.util.Calendar getLastPaymentDate() {
+        return lastPaymentDate;
+    }
+
+
+    /**
+     * Sets the lastPaymentDate value for this Account.
+     * 
+     * @param lastPaymentDate
+     */
+    public void setLastPaymentDate(java.util.Calendar lastPaymentDate) {
+        this.lastPaymentDate = lastPaymentDate;
+    }
+
+
+    /**
+     * Gets the listingDate value for this Account.
+     * 
+     * @return listingDate
+     */
+    public java.util.Calendar getListingDate() {
+        return listingDate;
+    }
+
+
+    /**
+     * Sets the listingDate value for this Account.
+     * 
+     * @param listingDate
+     */
+    public void setListingDate(java.util.Calendar listingDate) {
+        this.listingDate = listingDate;
+    }
+
+
+    /**
+     * Gets the maturityDate value for this Account.
+     * 
+     * @return maturityDate
+     */
+    public java.util.Calendar getMaturityDate() {
+        return maturityDate;
+    }
+
+
+    /**
+     * Sets the maturityDate value for this Account.
+     * 
+     * @param maturityDate
+     */
+    public void setMaturityDate(java.util.Calendar maturityDate) {
+        this.maturityDate = maturityDate;
+    }
+
+
+    /**
+     * Gets the pastDueDate value for this Account.
+     * 
+     * @return pastDueDate
+     */
+    public java.util.Calendar getPastDueDate() {
+        return pastDueDate;
+    }
+
+
+    /**
+     * Sets the pastDueDate value for this Account.
+     * 
+     * @param pastDueDate
+     */
+    public void setPastDueDate(java.util.Calendar pastDueDate) {
+        this.pastDueDate = pastDueDate;
+    }
+
+
+    /**
+     * Gets the principalAmount value for this Account.
+     * 
+     * @return principalAmount
+     */
+    public Double getPrincipalAmount() {
+        return principalAmount;
+    }
+
+
+    /**
+     * Sets the principalAmount value for this Account.
+     * 
+     * @param principalAmount
+     */
+    public void setPrincipalAmount(Double principalAmount) {
+        this.principalAmount = principalAmount;
+    }
+
+
+    /**
+     * Gets the repaymentDuration value for this Account.
+     * 
+     * @return repaymentDuration
+     */
+    public Integer getRepaymentDuration() {
+        return repaymentDuration;
+    }
+
+
+    /**
+     * Sets the repaymentDuration value for this Account.
+     * 
+     * @param repaymentDuration
+     */
+    public void setRepaymentDuration(Integer repaymentDuration) {
+        this.repaymentDuration = repaymentDuration;
+    }
+
+
+    /**
+     * Gets the repaymentTerm value for this Account.
+     * 
+     * @return repaymentTerm
+     */
+    public String getRepaymentTerm() {
+        return repaymentTerm;
+    }
+
+
+    /**
+     * Sets the repaymentTerm value for this Account.
+     * 
+     * @param repaymentTerm
+     */
+    public void setRepaymentTerm(String repaymentTerm) {
+        this.repaymentTerm = repaymentTerm;
+    }
+
+
+    /**
+     * Gets the scheduledPaymentAmount value for this Account.
+     * 
+     * @return scheduledPaymentAmount
+     */
+    public Double getScheduledPaymentAmount() {
+        return scheduledPaymentAmount;
+    }
+
+
+    /**
+     * Sets the scheduledPaymentAmount value for this Account.
+     * 
+     * @param scheduledPaymentAmount
+     */
+    public void setScheduledPaymentAmount(Double scheduledPaymentAmount) {
+        this.scheduledPaymentAmount = scheduledPaymentAmount;
+    }
+
+
+    /**
+     * Gets the tradeSector value for this Account.
+     * 
+     * @return tradeSector
+     */
+    public String getTradeSector() {
+        return tradeSector;
+    }
+
+
+    /**
+     * Sets the tradeSector value for this Account.
+     * 
+     * @param tradeSector
+     */
+    public void setTradeSector(String tradeSector) {
+        this.tradeSector = tradeSector;
+    }
+
+
+    /**
+     * Gets the worstArrear value for this Account.
+     * 
+     * @return worstArrear
+     */
+    public Integer getWorstArrear() {
+        return worstArrear;
+    }
+
+
+    /**
+     * Sets the worstArrear value for this Account.
+     * 
+     * @param worstArrear
+     */
+    public void setWorstArrear(Integer worstArrear) {
+        this.worstArrear = worstArrear;
+    }
+
+    private Object __equalsCalc = null;
+    public synchronized boolean equals(Object obj) {
+        if (!(obj instanceof Account)) return false;
+        Account other = (Account) obj;
+        if (obj == null) return false;
+        if (this == obj) return true;
+        if (__equalsCalc != null) {
+            return (__equalsCalc == obj);
+        }
+        __equalsCalc = obj;
+        boolean _equals;
+        _equals = true && 
+            ((this.accountClosedDate==null && other.getAccountClosedDate()==null) || 
+             (this.accountClosedDate!=null &&
+              this.accountClosedDate.equals(other.getAccountClosedDate()))) &&
+            ((this.accountNo==null && other.getAccountNo()==null) || 
+             (this.accountNo!=null &&
+              this.accountNo.equals(other.getAccountNo()))) &&
+            ((this.accountOpeningDate==null && other.getAccountOpeningDate()==null) || 
+             (this.accountOpeningDate!=null &&
+              this.accountOpeningDate.equals(other.getAccountOpeningDate()))) &&
+            ((this.accountOwner==null && other.getAccountOwner()==null) || 
+             (this.accountOwner!=null &&
+              this.accountOwner.equals(other.getAccountOwner()))) &&
+            ((this.accountStatus==null && other.getAccountStatus()==null) || 
+             (this.accountStatus!=null &&
+              this.accountStatus.equals(other.getAccountStatus()))) &&
+            ((this.accountType==null && other.getAccountType()==null) || 
+             (this.accountType!=null &&
+              this.accountType.equals(other.getAccountType()))) &&
+            ((this.arrearAmount==null && other.getArrearAmount()==null) || 
+             (this.arrearAmount!=null &&
+              this.arrearAmount.equals(other.getArrearAmount()))) &&
+            ((this.arrearDays==null && other.getArrearDays()==null) || 
+             (this.arrearDays!=null &&
+              this.arrearDays.equals(other.getArrearDays()))) &&
+            ((this.balanceAmount==null && other.getBalanceAmount()==null) || 
+             (this.balanceAmount!=null &&
+              this.balanceAmount.equals(other.getBalanceAmount()))) &&
+            ((this.currency==null && other.getCurrency()==null) || 
+             (this.currency!=null &&
+              this.currency.equals(other.getCurrency()))) &&
+            ((this.disputed==null && other.getDisputed()==null) || 
+             (this.disputed!=null &&
+              this.disputed.equals(other.getDisputed()))) &&
+            ((this.groupName==null && other.getGroupName()==null) || 
+             (this.groupName!=null &&
+              this.groupName.equals(other.getGroupName()))) &&
+            ((this.groupNumber==null && other.getGroupNumber()==null) || 
+             (this.groupNumber!=null &&
+              this.groupNumber.equals(other.getGroupNumber()))) &&
+            ((this.isMyAccount==null && other.getIsMyAccount()==null) || 
+             (this.isMyAccount!=null &&
+              this.isMyAccount.equals(other.getIsMyAccount()))) &&
+            ((this.joinLoanParticipants==null && other.getJoinLoanParticipants()==null) || 
+             (this.joinLoanParticipants!=null &&
+              this.joinLoanParticipants.equals(other.getJoinLoanParticipants()))) &&
+            ((this.lastPaymentDate==null && other.getLastPaymentDate()==null) || 
+             (this.lastPaymentDate!=null &&
+              this.lastPaymentDate.equals(other.getLastPaymentDate()))) &&
+            ((this.listingDate==null && other.getListingDate()==null) || 
+             (this.listingDate!=null &&
+              this.listingDate.equals(other.getListingDate()))) &&
+            ((this.maturityDate==null && other.getMaturityDate()==null) || 
+             (this.maturityDate!=null &&
+              this.maturityDate.equals(other.getMaturityDate()))) &&
+            ((this.pastDueDate==null && other.getPastDueDate()==null) || 
+             (this.pastDueDate!=null &&
+              this.pastDueDate.equals(other.getPastDueDate()))) &&
+            ((this.principalAmount==null && other.getPrincipalAmount()==null) || 
+             (this.principalAmount!=null &&
+              this.principalAmount.equals(other.getPrincipalAmount()))) &&
+            ((this.repaymentDuration==null && other.getRepaymentDuration()==null) || 
+             (this.repaymentDuration!=null &&
+              this.repaymentDuration.equals(other.getRepaymentDuration()))) &&
+            ((this.repaymentTerm==null && other.getRepaymentTerm()==null) || 
+             (this.repaymentTerm!=null &&
+              this.repaymentTerm.equals(other.getRepaymentTerm()))) &&
+            ((this.scheduledPaymentAmount==null && other.getScheduledPaymentAmount()==null) || 
+             (this.scheduledPaymentAmount!=null &&
+              this.scheduledPaymentAmount.equals(other.getScheduledPaymentAmount()))) &&
+            ((this.tradeSector==null && other.getTradeSector()==null) || 
+             (this.tradeSector!=null &&
+              this.tradeSector.equals(other.getTradeSector()))) &&
+            ((this.worstArrear==null && other.getWorstArrear()==null) || 
+             (this.worstArrear!=null &&
+              this.worstArrear.equals(other.getWorstArrear())));
+        __equalsCalc = null;
+        return _equals;
+    }
+
+    private boolean __hashCodeCalc = false;
+    public synchronized int hashCode() {
+        if (__hashCodeCalc) {
+            return 0;
+        }
+        __hashCodeCalc = true;
+        int _hashCode = 1;
+        if (getAccountClosedDate() != null) {
+            _hashCode += getAccountClosedDate().hashCode();
+        }
+        if (getAccountNo() != null) {
+            _hashCode += getAccountNo().hashCode();
+        }
+        if (getAccountOpeningDate() != null) {
+            _hashCode += getAccountOpeningDate().hashCode();
+        }
+        if (getAccountOwner() != null) {
+            _hashCode += getAccountOwner().hashCode();
+        }
+        if (getAccountStatus() != null) {
+            _hashCode += getAccountStatus().hashCode();
+        }
+        if (getAccountType() != null) {
+            _hashCode += getAccountType().hashCode();
+        }
+        if (getArrearAmount() != null) {
+            _hashCode += getArrearAmount().hashCode();
+        }
+        if (getArrearDays() != null) {
+            _hashCode += getArrearDays().hashCode();
+        }
+        if (getBalanceAmount() != null) {
+            _hashCode += getBalanceAmount().hashCode();
+        }
+        if (getCurrency() != null) {
+            _hashCode += getCurrency().hashCode();
+        }
+        if (getDisputed() != null) {
+            _hashCode += getDisputed().hashCode();
+        }
+        if (getGroupName() != null) {
+            _hashCode += getGroupName().hashCode();
+        }
+        if (getGroupNumber() != null) {
+            _hashCode += getGroupNumber().hashCode();
+        }
+        if (getIsMyAccount() != null) {
+            _hashCode += getIsMyAccount().hashCode();
+        }
+        if (getJoinLoanParticipants() != null) {
+            _hashCode += getJoinLoanParticipants().hashCode();
+        }
+        if (getLastPaymentDate() != null) {
+            _hashCode += getLastPaymentDate().hashCode();
+        }
+        if (getListingDate() != null) {
+            _hashCode += getListingDate().hashCode();
+        }
+        if (getMaturityDate() != null) {
+            _hashCode += getMaturityDate().hashCode();
+        }
+        if (getPastDueDate() != null) {
+            _hashCode += getPastDueDate().hashCode();
+        }
+        if (getPrincipalAmount() != null) {
+            _hashCode += getPrincipalAmount().hashCode();
+        }
+        if (getRepaymentDuration() != null) {
+            _hashCode += getRepaymentDuration().hashCode();
+        }
+        if (getRepaymentTerm() != null) {
+            _hashCode += getRepaymentTerm().hashCode();
+        }
+        if (getScheduledPaymentAmount() != null) {
+            _hashCode += getScheduledPaymentAmount().hashCode();
+        }
+        if (getTradeSector() != null) {
+            _hashCode += getTradeSector().hashCode();
+        }
+        if (getWorstArrear() != null) {
+            _hashCode += getWorstArrear().hashCode();
+        }
+        __hashCodeCalc = false;
+        return _hashCode;
+    }
+
+    // Type metadata
+    private static org.apache.axis.description.TypeDesc typeDesc =
+        new org.apache.axis.description.TypeDesc(Account.class, true);
+
+    static {
+        typeDesc.setXmlType(new javax.xml.namespace.QName("http://ws.crbws.transunion.ke.co/", "account"));
+        org.apache.axis.description.ElementDesc elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("accountClosedDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "accountClosedDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("accountNo");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "accountNo"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("accountOpeningDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "accountOpeningDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("accountOwner");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "accountOwner"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("accountStatus");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "accountStatus"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("accountType");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "accountType"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("arrearAmount");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "arrearAmount"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "double"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("arrearDays");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "arrearDays"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "int"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("balanceAmount");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "balanceAmount"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "double"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("currency");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "currency"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("disputed");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "disputed"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("groupName");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "groupName"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("groupNumber");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "groupNumber"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("isMyAccount");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "isMyAccount"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("joinLoanParticipants");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "joinLoanParticipants"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "int"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastPaymentDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "lastPaymentDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("listingDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "listingDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("maturityDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "maturityDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("pastDueDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "pastDueDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("principalAmount");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "principalAmount"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "double"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("repaymentDuration");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "repaymentDuration"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "int"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("repaymentTerm");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "repaymentTerm"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("scheduledPaymentAmount");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "scheduledPaymentAmount"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "double"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("tradeSector");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "tradeSector"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("worstArrear");
+        elemField.setXmlName(new javax.xml.namespace.QName("", "worstArrear"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "int"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+    }
+
+    /**
+     * Return type metadata object
+     */
+    public static org.apache.axis.description.TypeDesc getTypeDesc() {
+        return typeDesc;
+    }
+
+    /**
+     * Get Custom Serializer
+     */
+    public static org.apache.axis.encoding.Serializer getSerializer(
+           String mechType,
+           Class _javaType,
+           javax.xml.namespace.QName _xmlType) {
+        return 
+          new  org.apache.axis.encoding.ser.BeanSerializer(
+            _javaType, _xmlType, typeDesc);
+    }
+
+    /**
+     * Get Custom Deserializer
+     */
+    public static org.apache.axis.encoding.Deserializer getDeserializer(
+           String mechType,
+           Class _javaType,
+           javax.xml.namespace.QName _xmlType) {
+        return 
+          new  org.apache.axis.encoding.ser.BeanDeserializer(
+            _javaType, _xmlType, typeDesc);
+    }
+
+}
